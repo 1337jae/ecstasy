@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecstasy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #141414;
+            color: #f8fafc;
+        }
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(90deg, #ec4899, #f472b6);
+        }
+        .bg-pink-gradient {
+            background-image: linear-gradient(135deg, #ec4899, #db2777);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-[#1a1a1a] bg-opacity-80 backdrop-blur-md fixed w-full z-50 border-b border-[#2a2a2a]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <!-- Left side (Icon + Text) -->
+            <div class="flex items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <!-- Ecstasy Icon -->
+                    <a href="#" class="flex items-center mr-3">
+                        <img src="ecstasyicon.png" alt="Ecstasy Icon" class="h-8 w-8">
+                    </a>
+                    <!-- Logo Text -->
+                    <span class="text-xl font-bold gradient-text">Ecstasy</span>
+                </div>
+                <!-- Navigation Links (Hidden on Mobile) -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#features" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Features</a>
+                        <a href="#download" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Download</a>
+                        <a href="#faq" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">FAQ</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side (Get Ecstasy Button) -->
+            <div class="hidden md:block">
+                <div class="ml-4 flex items-center md:ml-6">
+                    <a href="https://discord.gg/azaHGSbjsM" class="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 animate-pulse">Discord Community</a>
+                </div>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="-mr-2 flex md:hidden">
+                <button type="button" class="bg-[#1a1a1a] inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-[#2a2a2a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#1a1a1a] focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu (Hidden by default) -->
+    <div class="md:hidden hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#features" class="text-gray-300 hover:bg-[#2a2a2a] hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-all duration-300">Features</a>
+            <a href="#download" class="text-gray-300 hover:bg-[#2a2a2a] hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-all duration-300">Download</a>
+            <a href="#faq" class="text-gray-300 hover:bg-[#2a2a2a] hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-all duration-300">FAQ</a>
+            <a href="#support" class="text-gray-300 hover:bg-[#2a2a2a] hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-all duration-300">Support</a>
+            <a href="#download" class="bg-pink-600 hover:bg-pink-700 text-white block px-3 py-2 rounded-md text-base font-medium transition-all duration-300">Get Ecstasy</a>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Experience <span class="gradient-text">Ecstasy</span> in Roblox
+                </h1>
+                <p class="text-lg text-gray-400 mb-8 max-w-lg">
+                    The most powerful and undetectable Roblox executor. Push your gaming experience to the limits with our premium features.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://gofile.io/d/DmSRkp" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-pink-500/20">
+                        Download Now
+                    </a>
+                    <a href="#features" class="border border-[#2a2a2a] hover:border-pink-500 text-white px-6 py-3 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105">
+                        Learn More
+                    </a>
+                </div>
+                <div class="mt-8 flex items-center gap-4">
+                    
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div class="animate__animated animate__fadeInRight">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vybwn7df.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-[#1a1a1a] bg-opacity-50 rounded-3xl my-12">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Why <span class="gradient-text">Ecstasy</span>?</h2>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto">Premium features that give you the ultimate advantage in Roblox</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Blazing Fast</h3>
+                <p class="text-gray-400">Our optimized execution engine runs scripts faster than any competitor, giving you instant results.</p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Undetectable</h3>
+                <p class="text-gray-400">Advanced anti-ban system keeps you safe with our proprietary bypass methods and encryption.</p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Beautiful UI</h3>
+                <p class="text-gray-400">Customizable pink-themed interface with intuitive controls and script management.</p>
+            </div>
+            
+            <!-- Feature 4 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Secure</h3>
+                <p class="text-gray-400">Built-in protections against malware and keyloggers to keep your system and accounts safe.</p>
+            </div>
+            
+            <!-- Feature 5 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Lua 5.4 Support</h3>
+                <p class="text-gray-400">Full compatibility with the latest Lua features and syntax for advanced scripting.</p>
+            </div>
+            
+            <!-- Feature 6 -->
+            <div class="bg-[#1a1a1a] bg-opacity-50 p-6 rounded-xl border border-[#2a2a2a] hover:border-pink-500 transition-all duration-300 hover:transform hover:scale-105">
+                <div class="w-14 h-14 bg-pink-600 bg-opacity-20 rounded-lg flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Auto Updates</h3>
+                <p class="text-gray-400">Regular updates with new features and bypasses to stay ahead of Roblox patches.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft">
+                <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_5tkzkblw.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
+            </div>
+            <div class="animate__animated animate__fadeInRight">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Get <span class="gradient-text">Ecstasy</span> Now</h2>
+                <p class="text-lg text-gray-400 mb-8">Download the most advanced Roblox executor available today. Simple installation, instant access.</p>
+                
+                
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto">Get answers to common questions about Ecstasy</p>
+        </div>
+        <div class="max-w-3xl mx-auto">
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-[#1a1a1a] bg-opacity-50 rounded-xl border border-[#2a2a2a] overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left">
+                        <h3 class="text-lg font-semibold">Is Ecstasy safe to use?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-400">Yes, Ecstasy is completely safe to use. We've implemented multiple security measures to ensure our software doesn't contain any malware or keyloggers. However, as with any executor, there's always a small risk of detection by Roblox's anti-cheat systems, which is why we constantly update our bypass methods.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="bg-[#1a1a1a] bg-opacity-50 rounded-xl border border-[#2a2a2a] overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left">
+                        <h3 class="text-lg font-semibold">What games does Ecstasy work with?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-400">Ecstasy works with most Roblox games, including popular ones like Adopt Me, Brookhaven, Blox Fruits, and many more. Some games may have additional anti-exploit measures that could temporarily prevent execution, but we regularly update Ecstasy to maintain compatibility with all major games.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="bg-[#1a1a1a] bg-opacity-50 rounded-xl border border-[#2a2a2a] overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left">
+                        <h3 class="text-lg font-semibold">How often is Ecstasy updated?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-400">We release updates whenever there's a new Roblox patch that affects our executor's functionality, typically within 24-48 hours of the patch. Our auto-update feature ensures you'll always have the latest version without needing to manually download updates.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="bg-[#1a1a1a] bg-opacity-50 rounded-xl border border-[#2a2a2a] overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left">
+                        <h3 class="text-lg font-semibold">Do I need to disable my antivirus to use Ecstasy?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-400">Some antivirus programs may flag Ecstasy as potentially unwanted software due to its nature as an executor. While we recommend adding Ecstasy to your antivirus whitelist, you shouldn't need to completely disable your antivirus. If you encounter issues, our support team can guide you through the whitelisting process.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="bg-[#1a1a1a] bg-opacity-50 rounded-xl border border-[#2a2a2a] overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left">
+                        <h3 class="text-lg font-semibold">Can I get banned for using Ecstasy?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-400 transform transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-400">While we've implemented advanced anti-detection measures, there's always some risk when using any third-party software with Roblox. To minimize risk, avoid obvious cheating in games with active moderation, don't share your activities publicly, and use scripts responsibly. Many of our users report long-term use without issues when following these guidelines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer id="support" class="bg-[#1a1a1a] border-t border-[#2a2a2a]">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                
+                </div>
+                
+            <div class="mt-12 pt-8 border-t border-[#2a2a2a] flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2025 Ecstasy. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const content = faqItem.querySelector('.faq-content');
+                const icon = button.querySelector('svg');
+                
+                // Toggle content
+                content.classList.toggle('hidden');
+                
+                // Rotate icon
+                icon.classList.toggle('rotate-180');
+                
+                // Close other FAQ items
+                document.querySelectorAll('.faq-toggle').forEach(otherButton => {
+                    if (otherButton !== button) {
+                        const otherFaqItem = otherButton.parentElement;
+                        const otherContent = otherFaqItem.querySelector('.faq-content');
+                        const otherIcon = otherButton.querySelector('svg');
+                        
+                        otherContent.classList.add('hidden');
+                        otherIcon.classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        // Animation on scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.animate__animated');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+                
+                if (elementPosition < screenPosition) {
+                    const animationClass = element.classList[1]; // Get the animation class
+                    element.classList.add(animationClass);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+</html>
